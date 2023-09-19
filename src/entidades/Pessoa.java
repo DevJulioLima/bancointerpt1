@@ -23,6 +23,15 @@ public abstract class Pessoa {
         this.cpf = cpf;
     }
 
+    public Pessoa(int id, boolean tipoCliente, String nome, String email, Date dataDeNascimento, String telefone) {
+        this.id = id;
+        this.tipoCliente = tipoCliente;
+        this.nome = nome;
+        this.email = email;
+        this.dataDeNascimento = dataDeNascimento;
+        this.telefone = telefone;
+    }
+
     public int getId() {
         return id;
     }
