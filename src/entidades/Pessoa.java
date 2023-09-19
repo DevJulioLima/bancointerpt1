@@ -12,6 +12,9 @@ public abstract class Pessoa {
     private String rg;
     private String cpf;
 
+    public Pessoa() {
+    }
+
     public Pessoa(int id, boolean tipoCliente, String nome, String email, Date dataDeNascimento, String telefone, String rg, String cpf) {
         this.id = id;
         this.tipoCliente = tipoCliente;

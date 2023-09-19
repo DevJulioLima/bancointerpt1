@@ -10,6 +10,9 @@ public class ClientePj extends Pessoa{
 
     private ArrayList<ClientePj> clientePj = new ArrayList<>();
 
+    public ClientePj() {
+    }
+
     public ClientePj(int id, boolean tipoCliente, String nome, String email, Date dataDeNascimento, String telefone) {
         super(id, tipoCliente, nome, email, dataDeNascimento, telefone);
 

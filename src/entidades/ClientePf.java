@@ -7,6 +7,9 @@ public class ClientePf extends Pessoa{
 
     private ArrayList<ClientePf> clientePf = new ArrayList<>();
 
+    public ClientePf() {
+    }
+
     public ClientePf(int id, boolean tipoCliente, String nome, String email, Date dataDeNascimento, String telefone, String rg, String cpf) {
         super(id, tipoCliente, nome, email, dataDeNascimento, telefone, rg, cpf);
 
